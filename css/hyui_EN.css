@@ -7181,7 +7181,7 @@ table.table_sprite tr:nth-child(even) {
   top: 5%;
   left: 50%;
   margin-left: -300px;
-  padding: 3em 3em 2em;
+  padding: 3em 1.5em 2em;
   box-sizing: border-box;
   border-radius: 8px;
   box-shadow: 1px 1px 15px RGBA(0, 0, 0, 0.5);
@@ -7232,6 +7232,8 @@ table.table_sprite tr:nth-child(even) {
 .modal.myOrder h3.title {
   border-bottom: 1px solid #eee;
   text-align: left;
+  line-height: 1.2;
+  padding-bottom: 30px;
 }
 .modal.myOrder h3.title time {
   display: inline-block;
