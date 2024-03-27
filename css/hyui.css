@@ -11781,7 +11781,7 @@ ul.state li.locked:before {
   }
 }
 .month_switch .year_month span {
-  padding: 0 10px;
+  padding: 0 4px;
   font-weight: 400;
   font-size: 1.45em;
   line-height: 52px;
