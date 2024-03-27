@@ -1960,6 +1960,12 @@ body {
             background: url(../images/ticc/icon_date.png) 6px 50% no-repeat;
             background-size: 36px 36px;
             padding-right: 0;
+
+            &._site{
+                background: url(../images/ticc/icon_location.png) 6px 50% no-repeat;
+                background-size: 36px 36px;
+                padding-right: 0;
+            }
         }
     }
     .download_pdf{
@@ -2146,9 +2152,78 @@ ul.state{
                     td {
                         border-bottom: 1px solid #fff !important;
                         // 手機版 週幾
-                        &:before{ background: #fff; }
+                        // &:before{ background: #fff; }
                     }
+                }
+            }
+        }
+    }
 
+    &.new_2024{
+        overflow: auto;
+        width: 100%;
+        background: #eee;
+        thead{
+            position: sticky;
+            top: 0;
+        }
+        td{
+            padding: 0;
+            vertical-align: middle
+        }
+        .time, .site, .box{
+            padding: 20px;
+        }
+        .time{
+            white-space: nowrap;
+        }
+        .site{
+            font-weight: bold;
+            color: #531580;
+        }
+        .box{
+            color: #fff;
+            text-align: center;
+            transition: .3s ease;
+            cursor: pointer;
+            &.able{
+                color: #666;
+                background: #fff;
+            }
+            &.unable{
+                background: #c7c4e9;
+                cursor: not-allowed !important;
+            }
+            &.locked{
+                color: #666;
+                background: #d2d0d0;
+                cursor: not-allowed !important;
+            }
+            &.wait{
+                background: #8782c4;
+            }
+            &:before{
+                border-radius: 4px;
+            }
+            &:hover, &:focus-visible{
+                &.able, &.wait{
+                    color: #fff;
+                    background: darken(#8782c4, 30);
+                    &:before{
+                        background: #fff;
+                    }
+                }
+            }
+        }
+        @include screen('tablet') {
+            .time{
+                border-bottom-color: transparent !important;
+            }
+            tr{
+                &:nth-child(even){
+                    td {
+                        border-bottom-color: transparent !important;
+                    }
                 }
             }
         }
