@@ -11784,7 +11784,7 @@ ul.state li.locked:before {
   background: #fff;
 }
 .calendar_Tb.new_2024 .box.unable {
-  background: #c7c4e9;
+  background: #8782c4;
   cursor: not-allowed !important;
 }
 .calendar_Tb.new_2024 .box.locked {
@@ -11793,7 +11793,8 @@ ul.state li.locked:before {
   cursor: not-allowed !important;
 }
 .calendar_Tb.new_2024 .box.wait {
-  background: #8782c4;
+  color: #3c3776;
+  background: #c7c4e9;
 }
 .calendar_Tb.new_2024 .box:before {
   border-radius: 4px;

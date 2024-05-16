@@ -2191,7 +2191,7 @@ ul.state{
                 background: #fff;
             }
             &.unable{
-                background: #c7c4e9;
+                background: #8782c4;
                 cursor: not-allowed !important;
             }
             &.locked{
@@ -2200,7 +2200,8 @@ ul.state{
                 cursor: not-allowed !important;
             }
             &.wait{
-                background: #8782c4;
+                color: darken(#8782c4, 30);
+                background: #c7c4e9;
             }
             &:before{
                 border-radius: 4px;
