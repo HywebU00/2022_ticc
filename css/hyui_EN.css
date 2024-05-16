@@ -11793,7 +11793,6 @@ ul.state li.locked:before {
   cursor: not-allowed !important;
 }
 .calendar_Tb.new_2024 .box.wait {
-  color: #3c3776;
   background: #c7c4e9;
 }
 .calendar_Tb.new_2024 .box:before {
