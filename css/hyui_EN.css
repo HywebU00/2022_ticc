@@ -13551,6 +13551,7 @@ h2.act_title {
   margin: 3em 1em;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  min-height: 380px;
   transform: scale(1);
   transition: 0.3s;
 }
@@ -13617,7 +13618,6 @@ h2.act_title {
   display: block;
   padding: 56px 38px;
   color: #222;
-  height: 712px;
 }
 .info_card:hover, .info_card:focus {
   transform: scale(1.05);
@@ -13625,7 +13625,6 @@ h2.act_title {
 @media screen and (max-width: 1439px) {
   .info_card a {
     padding: 50px 32px;
-    height: 590px;
   }
 }
 
