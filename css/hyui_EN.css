@@ -13586,7 +13586,7 @@ h2.act_title {
   overflow: hidden;
 }
 .info_card p {
-  margin: 1em 0 2em;
+  margin: 1em 0;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
@@ -13616,7 +13616,7 @@ h2.act_title {
 }
 .info_card a {
   display: block;
-  padding: 56px 38px;
+  padding: 56px 38px 100px;
   color: #222;
 }
 .info_card:hover, .info_card:focus {
